@@ -3,13 +3,13 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link, NavLink } from "react-router-dom";
 
-function Home() {
+function Men() {
   return (
     <div>
       <Navbar />
       <nav>
         <ul className="flex justify-center gap-[37px] h-[55px]  text-white items-center  text-[12px] bg-[#001F3F9E]">
-          <li className=" block sm:hidden text-xs font-bold">WOMEN</li>
+        <li className=" block sm:hidden text-xs font-bold">MEN</li>
           <li className="pt-2.5 px-2.5 pb-1.5 lg:text-sm md:text-[10px] text-[8px] hidden sm:block  border-b-2">
             <NavLink to="/">Women</NavLink>
           </li>
@@ -40,86 +40,56 @@ function Home() {
         <div className="flex-1 flex items-center justify-center text-white text-center sm:text-xs text-[8px] bg-black">
           <p>UP TO 50% OFF FRESH FINDS</p>
         </div>
-        <div className="flex-1 flex items-center justify-center text-center text-[#001F3FB2] sm:text-xs text-[8px] bg-white">
+        <div className="flex-1 flex items-center justify-center text-center sm:text-xs text-[#001F3FB2] text-[8px] bg-white">
           <p>FREE WORLDWIDE DELIVERY</p>
         </div>
       </div>
 
       <div className="flex flex-col h-[104px] bg-[#001F3F] text-white justify-center items-center ">
-        <p className="sm:font-black font-bold sm:text-lg text-[12px]">
-          UP TO 50% OFF FRESH FINDS
-        </p>
+        <p className="sm:font-black font-bold sm:text-lg text-[12px]">UP TO 50% OFF FRESH FINDS</p>
         <p className="sm:text-xs text-[8px] font-medium">
           members get free delivery over every $30 and free returns
         </p>
       </div>
 
       <div className="relative  pb-4">
-        <img
-          src="/images/image 28.png"
-          className="sm:h-[702px] h-[407px]"
-          alt="image"
-        />
+        <img src="/images/image 29.png" className="sm:h-[702px] h-[407px]" alt="image" />
         <div className="sm:h-[148px] h-[107px] absolute flex flex-col justify-center bg-[#001F3F9E] items-center sm:top-[554px] top-[300px] w-full text-white gap-5 text-center">
           <p className="sm:text-xs text-[8.6px]">NEW ARRIVALS</p>
-          <p className="font-black text-[10px] sm:text-lg">
-            UP TO 50% OFF FRESH FINDS
-          </p>
+          <p className="font-black text-[10px] sm:text-lg">UP TO 50% OFF FRESH FINDS</p>
           <button className=" text-black bg-white sm:p-[13px] p-[8.5px] sm:w-[115px] w-[73px] text-[10px] sm:text-[16px]">
-            <Link to="/shopnowwomen">SHOP NOW</Link>
+            <Link to="/shopnowmen">SHOP NOW</Link>
           </button>
         </div>
       </div>
 
       <div className="flex justify-center relative pb-4">
-        <img
-          src="/images/image 2.png"
-          className=" h-[407px] sm:h-[524px] sm:w-[327px] w-[164px]"
-          alt="image-2"
-        />
-        <img
-          src="/images/image 1.png"
-          className=" h-[407px] sm:h-[524px] sm:w-[327px] w-[164px]"
-          alt="image-2"
-        />
+        <img src="/images/men1.png" className=" h-[407px] sm:h-[524px] sm:w-[327px] w-[164px]" alt="image-2" />
+        <img src="/images/men2.png" className=" h-[407px] sm:h-[524px] sm:w-[327px] w-[164px]" alt="image-2" />
         <div className="h-[148px] absolute flex flex-col justify-center items-center sm:top-[356px] top-[278px] w-full text-white gap-5 text-center">
           <p className="sm:text-xs text-[8.5px]">NEW ARRIVALS</p>
-          <p className="font-black sm:[text-lg] text-[10px]">
-            UP TO 50% OFF FRESH FINDS
-          </p>
+          <p className="font-black sm:[text-lg] text-[10px]">UP TO 50% OFF FRESH FINDS</p>
           <button className=" text-black bg-white sm:p-[13px] p-[8.5px] sm:w-[115px] w-[73px] text-[10px] sm:text-[16px]">
-            <Link to="/shopnowwomen">SHOP NOW</Link>
+            <Link to="/shopnowmen">SHOP NOW</Link>
           </button>
         </div>
       </div>
 
       <div className="flex justify-center relative pb-4">
-        <img
-          src="/images/jean1.png"
-          className=" h-[407px] sm:h-[524px] sm:w-[327px] w-[164px]"
-          alt="image-2"
-        />
-        <img
-          src="/images/jean2.png"
-          className=" h-[407px] sm:h-[524px] sm:w-[327px] w-[164px]"
-          alt="image-2"
-        />
+        <img src="/images/men3.png" className=" h-[407px] sm:h-[524px] sm:w-[327px] w-[164px]" alt="image-2" />
+        <img src="/images/men4.png" className=" h-[407px] sm:h-[524px] sm:w-[327px] w-[164px]" alt="image-2" />
         <div className="h-[148px] absolute flex flex-col justify-center items-center sm:top-[356px] top-[278px] w-full text-white gap-5 text-center">
           <p className="sm:text-xs text-[8.5px]">NEW ARRIVALS</p>
-          <p className="font-black sm:[text-lg] text-[10px]">
-            UP TO 50% OFF FRESH FINDS
-          </p>
+          <p className="font-black sm:[text-lg] text-[10px]">UP TO 50% OFF FRESH FINDS</p>
           <button className=" text-black bg-white sm:p-[13px] p-[8.5px] sm:w-[115px] w-[73px] text-[10px] sm:text-[16px]">
-            <Link to="/shopnowwomen">SHOP NOW</Link>
+            <Link to="/shopnowmen">SHOP NOW</Link>
           </button>
         </div>
       </div>
 
       <div className="pb-4">
         <div className="h-[104px] text-white flex flex-col justify-center text-center bg-[#5D7287]">
-          <p className="sm:text-2xl text-[13.7px] font-black">
-            UP TO 50% OFF FRESH FUNDS
-          </p>
+          <p className="sm:text-2xl text-[13.7px] font-black">UP TO 50% OFF FRESH FUNDS</p>
           <p className="sm:text-xs text-[6.85px] font-medium">
             members get free delivery over every $30 and free returns
           </p>
@@ -127,35 +97,23 @@ function Home() {
       </div>
 
       <div className="flex justify-center relative pb-4">
-        <img
-          src="/images/image 4.png"
-          className="sm:h-[515px] h-[407px] sm:w-[678px] w-[327px]"
-          alt=""
-        />
+        <img src="/images/image 30.png" className="sm:h-[515px] h-[407px] sm:w-[678px] w-[327px]" alt="" />
         <div className="h-[148px] absolute flex flex-col justify-center items-center sm:top-[356px] top-[278px] w-full text-white gap-5 text-center">
           <p className="sm:text-xs text-[8.5px]">NEW ARRIVALS</p>
-          <p className="font-black sm:[text-lg] text-[10px]">
-            UP TO 50% OFF FRESH FINDS
-          </p>
+          <p className="font-black sm:[text-lg] text-[10px]">UP TO 50% OFF FRESH FINDS</p>
           <button className=" text-black bg-white sm:p-[13px] p-[8.5px] sm:w-[115px] w-[73px] text-[10px] sm:text-[16px]">
-            <Link to="/shopnowwomen">SHOP NOW</Link>
+            <Link to="/shopnowmen">SHOP NOW</Link>
           </button>
         </div>
       </div>
 
       <div className="flex justify-center relative pb-4">
-        <img
-          src="/images/image 5.png"
-          className="sm:h-[515px] h-[407px] sm:w-[678px] w-[327px]"
-          alt=""
-        />
+        <img src="/images/image 31.png" className="sm:h-[515px] h-[407px] sm:w-[678px] w-[327px]" alt="" />
         <div className="h-[148px] absolute flex flex-col justify-center items-center sm:top-[356px] top-[278px] w-full text-white gap-5 text-center">
           <p className="sm:text-xs text-[8.5px]">NEW ARRIVALS</p>
-          <p className="font-black sm:[text-lg] text-[10px]">
-            UP TO 50% OFF FRESH FINDS
-          </p>
+          <p className="font-black sm:[text-lg] text-[10px]">UP TO 50% OFF FRESH FINDS</p>
           <button className=" text-black bg-white sm:p-[13px] p-[8.5px] sm:w-[115px] w-[73px] text-[10px] sm:text-[16px]">
-            <Link to="/shopnowwomen">SHOP NOW</Link>
+            <Link to="/shopnowmen">SHOP NOW</Link>
           </button>
         </div>
       </div>
@@ -167,4 +125,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Men;

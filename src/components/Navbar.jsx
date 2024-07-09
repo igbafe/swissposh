@@ -1,55 +1,119 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { FiHeart } from "react-icons/fi";
+import { PiShoppingBag } from "react-icons/pi";
+import { HiMiniXMark } from "react-icons/hi2";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const handleOpenModal = () => {
+    setIsOpen(true);
+  };
+  const handleCloseModal = () => {
+    setIsOpen(false);
+  };
   return (
     <div>
       {/* brand logo */}
       <div className="h-[70px] text-white text-center items-center justify-between flex px-[47px] bg-black">
         <div className="text-[12px] flex gap-5">
-          <Link to="/">Customer Service</Link>
-          <Link to="/">Store Locator</Link>
-          <Link to="/">News Letter</Link>
+          <RxHamburgerMenu
+            onClick={handleOpenModal}
+            className="h-[22px] block sm:hidden w-[22px]"
+          />
+          <p className="text-[18px]  block sm:hidden font-bold">SWISSPOSH</p>
+          <Link
+            className="hidden lg:text-sm md:text-[10px] text-[8px] sm:block"
+            to="/"
+          >
+            Customer Service
+          </Link>
+          <Link
+            className="hidden lg:text-sm md:text-[10px] text-[8px] sm:block"
+            to="/"
+          >
+            Store Locator
+          </Link>
+          <Link
+            className="hidden lg:text-sm md:text-[10px] text-[8px] sm:block"
+            to="/"
+          >
+            News Letter
+          </Link>
         </div>
         <div>
-          <p className="text-[18px] font-bold">SWISSPOSH</p>
+          <p className="text-[18px] hidden sm:block font-bold">
+            <Link to="/">SWISSPOSH</Link>
+          </p>
         </div>
         <div className="text-[12px] flex gap-5">
-          <Link to="/signIn">Sign in</Link>
-          <Link to="/favorites">Favorites(o)</Link>
-          <Link to="/shoppingBag">Shopping Bag</Link>
+          <FiHeart className="h-[20px] block sm:hidden w-[12px]" />
+          <Link to="/shoppingBag">
+            <PiShoppingBag className="h-[20px] block sm:hidden w-[12px]" />
+          </Link>
+          <Link
+            className="hidden lg:text-sm md:text-[10px] text-[8px] sm:block"
+            to="/signIn"
+          >
+            Sign in
+          </Link>
+          <Link
+            className="hidden lg:text-sm md:text-[10px] text-[8px] sm:block"
+            to="/favorites"
+          >
+            Favorites(o)
+          </Link>
+          <Link
+            className="hidden lg:text-sm md:text-[10px] text-[8px] sm:block"
+            to="/shoppingBag"
+          >
+            Shopping Bag
+          </Link>
         </div>
       </div>
-
-      {/* Navbar */}
-      <nav >
-       <ul className="flex justify-center gap-[37px] h-[55px]  text-white items-center  text-[12px] bg-[#001F3F9E]">
-        <li className="pt-2.5 px-2.5 pb-1.5  border-b-2">
-            <NavLink to="/">Women</NavLink>
-        </li>
-        <li className="pt-2.5 px-2.5 pb-1.5  hover:border-b-2">
-            <NavLink to="/men">Men</NavLink>
-        </li>
-        <li className="pt-2.5 px-2.5 pb-1.5  hover:border-b-2"> 
-            <NavLink to="/baby">Baby</NavLink>
-        </li>
-        <li className="pt-2.5 px-2.5 pb-1.5  hover:border-b-2">
-            <NavLink>Kids</NavLink>
-        </li>
-        <li className="pt-2.5 px-2.5 pb-1.5  hover:border-b-2">
-            <NavLink>Beauty</NavLink>
-        </li>
-        <li className="pt-2.5 px-2.5 pb-1.5  hover:border-b-2">
-            <NavLink>Sports</NavLink>
-        </li>
-        <li className="pt-2.5 px-2.5 pb-1.5  hover:border-b-2">
-            <NavLink>Sale</NavLink>
-        </li>
-        <li className="pt-2.5 px-2.5 pb-1.5  hover:border-b-2">
-            <NavLink>Sustainability</NavLink>
-        </li>
-       </ul>
-      </nav>
+      {isOpen && (
+        <div className="block md:hidden h-[555px] font-black bg-[#001F3F] text-white ">
+          <ul className="flex flex-col gap-6 pt-12 px-8">
+            <li className="flex items-center justify-between">
+              <div className="flex gap-2">
+                <p className="text-[#F20000]">WOMEN</p>
+                <p>MEN</p>
+              </div>
+              <HiMiniXMark onClick={handleCloseModal} />
+            </li>
+            <li className="flex items-center  border-b-2 pb-3 justify-between">
+              <p>NEW ARRIVAL</p>
+              <MdOutlineKeyboardArrowRight />
+            </li>
+            <li className="flex items-center justify-between">
+              <p>TRENDING NOW</p>
+              <MdOutlineKeyboardArrowRight />
+            </li>
+            <li className="flex items-center justify-between">
+              <p>SHOP BY OCCASION</p>
+              <MdOutlineKeyboardArrowRight />
+            </li>
+            <li className="flex items-center justify-between">
+              <p>SHOP BY PRODUCT</p>
+              <MdOutlineKeyboardArrowRight />
+            </li>
+            <li className="flex items-center justify-between">
+              <p>GIFTING</p>
+              <MdOutlineKeyboardArrowRight />
+            </li>
+            <li className="flex items-center justify-between">
+              <p>MAGAZINE</p>
+              <MdOutlineKeyboardArrowRight />
+            </li>
+            <li className="flex items-center justify-between">
+              <p>SUSTAINABILITY</p>
+              <MdOutlineKeyboardArrowRight />
+            </li>
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
