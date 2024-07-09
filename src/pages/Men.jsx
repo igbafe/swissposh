@@ -10,10 +10,10 @@ function Men() {
       <nav>
         <ul className="flex justify-center gap-[37px] h-[55px]  text-white items-center  text-[12px] bg-[#001F3F9E]">
         <li className=" block sm:hidden text-xs font-bold">MEN</li>
-          <li className="pt-2.5 px-2.5 pb-1.5 lg:text-sm md:text-[10px] text-[8px] hidden sm:block  border-b-2">
+          <li className="pt-2.5 px-2.5 pb-1.5 lg:text-sm md:text-[10px] text-[8px] hidden sm:block  ">
             <NavLink to="/">Women</NavLink>
           </li>
-          <li className="pt-2.5 px-2.5 pb-1.5 lg:text-sm md:text-[10px] text-[8px] hidden sm:block ">
+          <li className="pt-2.5 px-2.5 pb-1.5 lg:text-sm md:text-[10px] text-[8px] hidden sm:block border-b-2 ">
             <NavLink to="/men">Men</NavLink>
           </li>
           <li className="pt-2.5 px-2.5 pb-1.5 hidden lg:text-sm md:text-[10px] text-[8px] sm:block ">
@@ -53,7 +53,7 @@ function Men() {
       </div>
 
       <div className="relative  pb-4">
-        <img src="/images/image 29.png" className="sm:h-[702px] h-[407px]" alt="image" />
+        <img src="/images/image 29.png" className="sm:h-[702px] h-[407px] w-full" alt="image" />
         <div className="sm:h-[148px] h-[107px] absolute flex flex-col justify-center bg-[#001F3F9E] items-center sm:top-[554px] top-[300px] w-full text-white gap-5 text-center">
           <p className="sm:text-xs text-[8.6px]">NEW ARRIVALS</p>
           <p className="font-black text-[10px] sm:text-lg">UP TO 50% OFF FRESH FINDS</p>

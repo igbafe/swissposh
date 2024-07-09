@@ -5,6 +5,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { CiFilter } from "react-icons/ci";
 import { FiHeart } from "react-icons/fi";
 import Footer from "../components/Footer";
+import { GoDotFill } from "react-icons/go";
 
 function ShopNow() {
   return (
@@ -130,11 +131,15 @@ function ShopNow() {
       <section className="grid justify-center gap-5 pb-10">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center gap-2 sm:gap-5">
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow1.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingBag">
+              {" "}
+              <Link to="/shoppingbag"></Link>
+              <img
+                src="/images/womenshopnow1.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -143,11 +148,13 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
+
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -156,11 +163,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow2.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow2.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -169,11 +179,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -182,11 +193,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow3.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow3.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -195,11 +209,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -208,11 +223,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow4.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow4.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -221,11 +239,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -234,11 +253,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow5.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow5.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -247,11 +269,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -260,11 +283,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow6.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow6.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -273,11 +299,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -286,11 +313,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow6.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow7.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -299,11 +329,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -312,11 +343,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow8.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow8.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -325,11 +359,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -338,11 +373,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow9.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow9.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -351,11 +389,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -364,11 +403,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow10.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow10.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -377,11 +419,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -390,11 +433,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow11.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow11.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -403,11 +449,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">
@@ -416,11 +463,14 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <img
-              src="/images/womenshopnow12.png"
-              className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
-              alt=""
-            />
+            <Link to="/shoppingbag">
+              <img
+                src="/images/womenshopnow12.png"
+                className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
+                alt=""
+              />
+            </Link>
+
             <div className="w-[20px] h-[18px] absolute sm:top-[397px] top-[178px] left-[137px] sm:left-[195px]">
               <FiHeart />
             </div>
@@ -429,11 +479,12 @@ function ShopNow() {
                 <p className="sm:text-xs text-[7.6px] font-bold pb-2">
                   Oversized denim shirt
                 </p>
-                <img
-                  src="/Group_11.svg"
-                  className="pb-2 h-[5.px] w-[22.3px]"
-                  alt=""
-                />
+                <div className="flex gap-0 w-8">
+                  <GoDotFill className="text-[#e7e5e4]" />
+                  <GoDotFill />
+                  <GoDotFill className="text-[#ea580c]" />
+                  <GoDotFill />
+                </div>
                 <p className="sm:text-[10px] text-[6.3px]">$300.00</p>
               </div>
               <p className="sm:text-[10px] text-[6.3px] font-black">

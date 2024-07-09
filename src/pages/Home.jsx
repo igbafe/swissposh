@@ -57,7 +57,7 @@ function Home() {
       <div className="relative  pb-4">
         <img
           src="/images/image 28.png"
-          className="sm:h-[702px] h-[407px]"
+          className="sm:h-[702px] h-[407px] w-full"
           alt="image"
         />
         <div className="sm:h-[148px] h-[107px] absolute flex flex-col justify-center bg-[#001F3F9E] items-center sm:top-[554px] top-[300px] w-full text-white gap-5 text-center">
