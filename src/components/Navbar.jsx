@@ -78,8 +78,8 @@ function Navbar() {
           <ul className="flex flex-col gap-6 pt-12 px-8">
             <li className="flex items-center justify-between">
               <div className="flex gap-2">
-                <p className="text-[#F20000]">WOMEN</p>
-                <p>MEN</p>
+                <p className="text-[#F20000]"><NavLink to="/">WOMEN</NavLink></p>
+                <p><NavLink to="/men">MEN</NavLink></p>
               </div>
               <HiMiniXMark onClick={handleCloseModal} />
             </li>
