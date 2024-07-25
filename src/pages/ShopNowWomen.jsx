@@ -131,9 +131,9 @@ function ShopNow() {
       <section className="grid justify-center gap-5 pb-10">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center gap-2 sm:gap-5">
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingBag">
+            <Link to="/product">
               {" "}
-              <Link to="/shoppingbag"></Link>
+              <Link to="/product"></Link>
               <img
                 src="/images/womenshopnow1.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -163,7 +163,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow2.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -193,7 +193,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow3.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -223,7 +223,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow4.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -253,7 +253,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow5.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -283,7 +283,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow6.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -313,7 +313,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow7.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -343,7 +343,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow8.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -373,7 +373,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow9.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -403,7 +403,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow10.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -433,7 +433,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow11.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
@@ -463,7 +463,7 @@ function ShopNow() {
             </div>
           </div>
           <div className="sm:h-[502px] w-[161px] h-[305px] sm:w-[232px] relative">
-            <Link to="/shoppingbag">
+            <Link to="/product">
               <img
                 src="/images/womenshopnow12.png"
                 className="sm:h-[437px] h-[237px]  w-[161px] sm:w-[232px] pb-2"
