@@ -51,9 +51,13 @@ function Navbar() {
           </p>
         </div>
         <div className="text-[12px] flex gap-5">
-          <FiHeart className="h-[20px] block sm:hidden w-[12px]" />
+          <Link className="block sm:hidden " to="/favorites">
+            <div className="flex text-lggit justify-center items-center">
+              <FiHeart className="h-[30px]  w-[18px]" />({cartProducts.length})
+            </div>
+          </Link>
           <Link to="/shoppingBag">
-            <PiShoppingBag className="h-[20px] block sm:hidden w-[12px]" />
+            <PiShoppingBag className="h-[30px] block sm:hidden w-[18px]" />
           </Link>
           <Link
             className="hidden lg:text-sm md:text-[10px] text-[8px] sm:block"
@@ -71,7 +75,7 @@ function Navbar() {
             className="hidden lg:text-sm md:text-[10px] text-[8px] sm:block"
             to="/shoppingBag"
           >
-            Cart 
+            Cart
           </Link>
         </div>
       </div>
