@@ -5,8 +5,10 @@ import { FiHeart } from "react-icons/fi";
 import { PiShoppingBag } from "react-icons/pi";
 import { HiMiniXMark } from "react-icons/hi2";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { useSelector } from "react-redux";
 
 function Navbar() {
+  const cartProducts = useSelector((state) => state.cart);
   const [isOpen, setIsOpen] = useState(false);
   const handleOpenModal = () => {
     setIsOpen(true);
@@ -63,13 +65,13 @@ function Navbar() {
             className="hidden lg:text-sm md:text-[10px] text-[8px] sm:block"
             to="/favorites"
           >
-            Favorites(o)
+            Favorites({cartProducts.length})
           </Link>
           <Link
             className="hidden lg:text-sm md:text-[10px] text-[8px] sm:block"
             to="/shoppingBag"
           >
-            Shopping Bag
+            Cart 
           </Link>
         </div>
       </div>
@@ -78,8 +80,12 @@ function Navbar() {
           <ul className="flex flex-col gap-6 pt-12 px-8">
             <li className="flex items-center justify-between">
               <div className="flex gap-2">
-                <p className="text-[#F20000]"><NavLink to="/">WOMEN</NavLink></p>
-                <p><NavLink to="/men">MEN</NavLink></p>
+                <p className="text-[#F20000]">
+                  <NavLink to="/">WOMEN</NavLink>
+                </p>
+                <p>
+                  <NavLink to="/men">MEN</NavLink>
+                </p>
               </div>
               <HiMiniXMark onClick={handleCloseModal} />
             </li>
